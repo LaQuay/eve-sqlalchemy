@@ -303,7 +303,7 @@ which produces where closure:
    
 **Generating multiple 'exact' matches**
 
-Here we are asking for all `people` where `age` value is between `40` and `50`:
+Here we are asking for all `people` where `age` value is between `50` and `60`:
 
 .. code-block:: console
 

@@ -313,7 +313,7 @@ which produces where closure:
 
 .. code-block:: sql
 
-   people.lastname = "Smith"
+   people.age > 50 AND people.age < 60
 
 **Generating 'like' matches**
 
@@ -337,7 +337,7 @@ Here we are asking for all `people` where `firstname` value is `John` or `Fred`:
 
     /people?where={"firstname":"in(\"(\'John\',\'Fred\')\")"}
     
-or you can also use the python-like query
+or you can also use the other syntax query
 
 .. code-block:: console
 
@@ -353,7 +353,7 @@ which produces where closure:
 
 .. code-block:: console
 
-    /people?where={"firstname":"similar to(\"(\'%ohn\'|\'%acob\'\"))"}
+    /people?where={"firstname":"similar to(\"(\'%ohn\'|\'%acob\')\")"}
 
 which produces where closure:
 

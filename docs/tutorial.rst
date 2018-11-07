@@ -285,7 +285,9 @@ SQLAlchemy expressions
 With this version of Eve you can use `SQLAlchemy`_ expressions such as: `like`,
 `in`, `any`, etc. For more examples please check `SQLAlchemy internals`_.
 
-Query strings are supported, allowing for filtering and sorting. Both native Mongo queries and Python conditional expressions are supported. For more examples please check `SQLAlchemy filtering`_.
+Query strings are supported, allowing for filtering and sorting. Both native 
+Mongo queries and Python conditional expressions are supported. For more 
+examples please check `SQLAlchemy filtering`_.
 
 **Generating 'exact' matches**
 

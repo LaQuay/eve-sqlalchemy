@@ -302,7 +302,7 @@ which produces where closure:
 .. code-block:: sql
 
    people.lastname = "Smith"
- 
+
 **Generating multiple 'exact' matches**
 
 Here we are asking for all `people` where `age` value is between `50` and `60`:

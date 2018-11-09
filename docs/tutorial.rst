@@ -285,8 +285,8 @@ SQLAlchemy expressions
 With this version of Eve you can use `SQLAlchemy`_ expressions such as: `like`,
 `in`, `any`, etc. For more examples please check `SQLAlchemy internals`_.
 
-Query strings are supported, allowing for filtering and sorting. Both native 
-Mongo queries and Python conditional expressions are supported. For more 
+Query strings are supported, allowing for filtering and sorting. Both native
+Mongo queries and Python conditional expressions are supported. For more
 examples please check `SQLAlchemy filtering`_.
 
 **Generating 'exact' matches**
@@ -302,7 +302,7 @@ which produces where closure:
 .. code-block:: sql
 
    people.lastname = "Smith"
-   
+ 
 **Generating multiple 'exact' matches**
 
 Here we are asking for all `people` where `age` value is between `50` and `60`:
@@ -330,7 +330,7 @@ which produces where closure:
 .. code-block:: sql
 
    people.lastname LIKE "Smi%"
-   
+
 **Generating 'in' matches**
 
 Here we are asking for all `people` where `firstname` value is `John` or `Fred`:
@@ -338,7 +338,7 @@ Here we are asking for all `people` where `firstname` value is `John` or `Fred`:
 .. code-block:: console
 
     /people?where={"firstname":"in(\"(\'John\',\'Fred\')\")"}
-    
+
 or you can also use the other syntax query
 
 .. code-block:: console

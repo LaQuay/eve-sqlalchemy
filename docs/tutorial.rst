@@ -388,7 +388,7 @@ which produces where closure:
 .. code-block:: sql
 
    documents.keywords IS NOT NULL
-   
+
 **Generating 'datetime' matches**
 
 Here we are asking for all `documents` that where `_created` after `Mon, 17 Oct 2019 03:00:00 GMT`:
@@ -402,7 +402,7 @@ which produces where closure:
 .. code-block:: sql
 
    documents._created > 2019-10-17 03:00:00
-   
+
 SQLAlchemy sorting
 ------------------
 Starting from version 0.2 you can use `SQLAlchemy ORDER BY`_ expressions such

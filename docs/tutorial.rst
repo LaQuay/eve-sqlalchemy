@@ -395,7 +395,7 @@ Here we are asking for all `documents` that where `_created` after `Mon, 17 Oct 
 
 .. code-block:: console
 
-    /documents?where=_created> \"Mon, 17 Oct 2019 03:00:00 GMT\"}
+    /documents?where=_created> \"Mon, 17 Oct 2019 03:00:00 GMT\"
 
 which produces where closure:
 

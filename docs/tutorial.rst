@@ -291,7 +291,6 @@ examples please check `SQLAlchemy filtering`_.
 
 Filtering
 ~~~~~~~~~~~~~~~~~~
-
 **Generating 'exact' matches**
 
 Here we are asking for all `people` where `lastname` value is `Smith`:
